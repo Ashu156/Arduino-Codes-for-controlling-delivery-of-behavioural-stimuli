@@ -1,5 +1,5 @@
-#define LED1 8                                //SPEAKER
-#define LED2 13                              // LIGHT
+# define LED1 8                                //SPEAKER
+# define LED2 13                              // LIGHT
                
 
 void setup() {
@@ -13,9 +13,9 @@ digitalWrite(LED2, LOW);                 //  Turns the LED OFF
 
 
 // Generating the stimulus
-for (int y = 0; y<5; y++) {
+for (int y = 0; y < 5; y++) {
   delay(50000);                             // Interval before starting the stimulus presentation (50 s in this case)
-for(int x=0; x<20; x++){                 // Loops over the commands below for 100 times
+for(int x = 0; x < 20; x++){                 // Loops over the commands below for 100 times
 delay(10000);                            // Inter-trial interval (10 s in this case)
 digitalWrite(LED1, HIGH);               // TTL ON
 delay(1000);                           // Waits for 1 second (does not matter in this case as the playback once triggered ON, will continue till the end of it )
