@@ -1,3 +1,6 @@
+// This script controls the delivery of CS during fera recall in the linear track.
+// The CS is a 30 s long pure tone.
+
 #define LED1 8 //SPEAKER
 #define LED2 13 // LIGHT
                
