@@ -1,6 +1,6 @@
 // Code for dleivering shcok to a rat on a linear track through a custom-made shock-grid.
 // The current flowing through the shock-grid was controlled through an ISO-flex stimulation 
-// isolation unit (SIU).
+// isolation unit (SIU). A LED indicator was usedfor indicating the onset of shock.
 
 #define LED1 8
 
