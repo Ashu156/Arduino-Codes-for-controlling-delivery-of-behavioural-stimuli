@@ -1,3 +1,8 @@
+// This script is used to control the delivery of stimulus during the 
+// adult rat ultrasonic vocalizations (USVs) playback experiments. The
+// playback period is 3 minutes long and there are 2 episodes of the playback.
+
+
 #define LED2 8 //SPEAKER                                                                                                      #define LED2 12 //SPEAKER
                
 #define LED1 13 // LED
