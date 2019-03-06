@@ -1,10 +1,15 @@
-#define LED2 8 //SPEAKER                                                                                                      #define LED2 12 //SPEAKER
+// This script basically checks if the stimulus delivery circuitry is working 
+// fine. Just a quick check before starting the experiment always helps. The whole
+// experiment takes at not more than 60 seconds.
+
+#define LED2 8 //SPEAKER                  
                
 #define LED1 13 // LED
+
 void setup() {
   // put your setup code here, to run once:
 
-  Serial.begin(9600);
+Serial.begin(9600);
 pinMode(LED1,OUTPUT); // Defining pins as output
 pinMode(LED2,OUTPUT); // Defining pins as output
 
