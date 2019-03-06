@@ -1,3 +1,7 @@
+// This script controls the delivery of stimuli during recall of fear memory
+// in the linear track. The CS is delivered as pips (100 ms ON and 900 ms OFF)
+// thus being delivered at a rate of 1 Hz.
+
 #define LED1 8 //SPEAKER
 #define LED2 13 // LIGHT
                
