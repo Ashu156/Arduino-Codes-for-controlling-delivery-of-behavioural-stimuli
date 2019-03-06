@@ -10,7 +10,7 @@ void setup() {
   pinMode(LED1,OUTPUT);
 
   digitalWrite(LED1,HIGH);
-  delay(30000);
+  delay(90000);
   digitalWrite(LED1,LOW);
 
 }
